@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/02/2017, 10:06:53
+    Author     : guil_
+*/
+
+body{
+ background-color: #45D9FF; 
+}
+
+#entrar{
+    background-color: #94D7E8;
+    border-radius: 10px;
+    border: inset;
+    height: 190px;
+    width: 250px;
+}
+#entrarForm{
+    margin: 20px;
+}
+.caixaTexto{
+    border: inset;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.caixaTexto1:hover {
+    background-color: #E7E7E7;
+}
+#centro{
+  margin-top: 10%;  
+  left: 50%;
+  margin-left: -150px; /* A metade de sua largura. */
+  position: absolute;
+  
+  
+}
+
+h3{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+#button{
+  border-radius: 2px;
+  border: inset ;
+  
+}
+
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #ACACAC;
+}
+
+#menu{
+    background-color: #7AB4C3;
+    height: 40px; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    
+}
+.btnmenu
+{
+    width: 40px;
+    height: 40px;
+    left: 0;
+    cursor:pointer;
+}
+
+.bemvindo{
+    float: right;
+    margin-right: 40%;   
+    margin-top: 9px;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: oblique;
+    
+}
+.sair{
+   float: right;
+   margin-right: 15px;
+   margin-top: 9px;
+   color: #ffffff;
+   font-size: 20px;
+   font-style: oblique;
+   
+}
+
+#menuLateral{
+    margin-left: -10px;
+    background-color: #9FBCC4;
+    margin-top: 40px;
+    padding: 10px;
+    padding-left: 1px;
+    border-radius: 3px;
+    height: 600px;
+    width: 260px;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 1px;
+}
+
+li{
+   padding: 5px; 
+}
+li:hover{
+    
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    cursor:pointer;
+}
